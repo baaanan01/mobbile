@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.strokach.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.strokach.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.strokach.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_brouser"
+        android:name="ru.mirea.strokach.mireaproject.nav_brouser"
+        android:label="fragment_nav_brouser"
+        tools:layout="@layout/fragment_nav_brouser" />
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="ru.mirea.strokach.mireaproject.Calculator"
+        android:label="fragment_calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/nav_music"
+        android:name="ru.mirea.strokach.mireaproject.music"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_player" />
+    <fragment
+        android:id="@+id/nav_sensors"
+        android:name="ru.mirea.strokach.mireaproject.nav_sensors"
+        android:label="fragment_nav_sensors"
+        tools:layout="@layout/fragment_nav_sensors" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.strokach.mireaproject.Camera"
+        android:label="fragment_nav_camera"
+        tools:layout="@layout/fragment_nav_camera" />
+    <fragment
+        android:id="@+id/nav_audio_record"
+        android:name="ru.mirea.strokach.mireaproject.nav_audio_record"
+        android:label="fragment_nav_audio_record"
+        tools:layout="@layout/fragment_nav_audio_record" />
+</navigation>
